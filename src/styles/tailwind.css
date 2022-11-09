@@ -13,3 +13,9 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
+.a-btn {
+	@apply bg-primaryColor1  transition-all duration-300 ease-in-out text-white px-6 py-2 rounded-lg hover:bg-transparent hover:border hover:border-primaryColor1  hover:text-primaryColor1
+  }
+.site {
+	@apply bg-primaryColor2  transition-all duration-300 ease-in-out text-white px-9 py-2 rounded-lg hover:bg-transparent hover:border hover:border-primaryColor2  hover:text-primaryColor2
+}
